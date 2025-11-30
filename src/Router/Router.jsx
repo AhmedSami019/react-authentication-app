@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router";
 import App from "../App";
+import Root from "../Components/Root/Root";
 
 export const router = createBrowserRouter([
     {
         path: '/',
-        Component: App,
+        Component: Root,
         children: [
             {
                 index: true,
